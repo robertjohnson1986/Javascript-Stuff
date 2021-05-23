@@ -16,3 +16,20 @@ function sum_even_numbers () {
     }
     return sum;
 }
+//Third
+function sum_odd_5000 () {
+    var sum = 0;
+    for (var i = 0; i < 5001; i++) {
+        if (i % 2 !== 0);
+            sum += i;
+        }
+    return sum;
+}
+//Fourth
+function interArr (arr) {
+    var sum = 0;
+    for (var i = 0; i <arr.length; i++) {
+        sum = sum + arr [i];
+    }
+    return sum;
+}
